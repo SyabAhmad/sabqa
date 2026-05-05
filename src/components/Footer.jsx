@@ -79,7 +79,10 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-10 pt-8 text-center text-gray-500">
-          <p>&copy; 2026 Sabqa. All rights reserved. Made with ❤️ in Riyadh</p>
+          <p>&copy; 2026 Sabqa. All rights reserved.</p>
+          <p className="mt-2 text-sm">
+            Built by <a href="https://syab.tech" target="_blank" rel="noopener noreferrer" className="text-[#E85A4F] hover:underline">syab.tech</a> / <a href="https://mentee.app" target="_blank" rel="noopener noreferrer" className="text-[#E85A4F] hover:underline">MenteE</a>
+          </p>
         </div>
       </div>
     </footer>
